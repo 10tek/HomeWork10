@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HW10
 {
-    class Walls
+    public interface IWorker
     {
+        string WorkerName { get; set; }
     }
 }

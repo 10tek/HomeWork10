@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HW10.Workers;
 
 namespace HW10
 {
@@ -10,7 +11,9 @@ namespace HW10
     {
         static void Main(string[] args)
         {
-
+            Team team = new Team();
+            team.StartBuilding();
+           
         }
     }
 }

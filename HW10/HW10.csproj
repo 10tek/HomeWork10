@@ -43,19 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basement.cs" />
-    <Compile Include="Door.cs" />
+    <Compile Include="Parts\Basement.cs" />
+    <Compile Include="Parts\Door.cs" />
     <Compile Include="House.cs" />
-    <Compile Include="IPart.cs" />
-    <Compile Include="IWorker.cs" />
+    <Compile Include="interfaces\IPart.cs" />
+    <Compile Include="interfaces\IWorker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Roof.cs" />
-    <Compile Include="Team.cs" />
-    <Compile Include="TeamLeader.cs" />
-    <Compile Include="Walls.cs" />
-    <Compile Include="Window.cs" />
-    <Compile Include="Worker.cs" />
+    <Compile Include="Parts\Roof.cs" />
+    <Compile Include="Workers\Team.cs" />
+    <Compile Include="Workers\TeamLeader.cs" />
+    <Compile Include="Parts\Wall.cs" />
+    <Compile Include="Parts\Window.cs" />
+    <Compile Include="Workers\Worker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

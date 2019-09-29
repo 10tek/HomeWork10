@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HW10
 {
-    class Worker
+    public class Wall : IPart
     {
+        public string PartName { get; set; } 
+        public string PartFigure { get; set; }
     }
 }

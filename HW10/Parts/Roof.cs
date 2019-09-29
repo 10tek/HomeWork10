@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HW10
 {
-    interface IPart
+    public class Roof : IPart
     {
+        public string PartName { get; set; }
+        public string PartFigure { get; set; }
     }
 }

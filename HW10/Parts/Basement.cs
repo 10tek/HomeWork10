@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HW10
 {
-    class TeamLeader
+    public class Basement : IPart
     {
+        public string PartName { get; set; }
+        public string PartFigure { get; set; }
     }
 }

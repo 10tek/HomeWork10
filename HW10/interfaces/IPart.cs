@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HW10
 {
-    class Basement
+    public interface IPart
     {
+        string PartName { get; set; }
+        string PartFigure { get; set; }
     }
 }
